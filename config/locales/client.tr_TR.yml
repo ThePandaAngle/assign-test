@@ -1,0 +1,33 @@
+# encoding: utf-8
+#
+# Never edit this file. It will be overwritten when translations are pulled from Transifex.
+#
+# To work with us on translations, join this project:
+# https://www.transifex.com/projects/p/discourse-org/
+
+tr_TR:
+  js:
+    action_codes:
+      assigned: "%{when}%{who} atandı"
+      unassigned: "%{when}%{who} atanmamış"
+    discourse_assign:
+      cant_act: "Diğer kullanıcılara atanan bildirimler üzerinde hareket edemezsiniz"
+      assigned: "Atandı"
+      assigned_to: "Atandı"
+      assign_notification: "<i title='yazdı' class='fa fa-reply'></i><p><span>{{username}}</span> {{description}}</p>"
+      unassign:
+        title: "Atamayı kaldır"
+        help: "Konunun Atamasını Kaldır"
+      assign:
+        title: "Ata"
+        help: "Kullanıcıya konu ata"
+      assign_modal:
+        title: "Konu Ata"
+        description: "Bu konuyu atamak istediğiniz kişinin kullanıcı adını girin"
+        assign: "Ata"
+      claim:
+        title: "talep"
+        help: "Konuyu kendinize atayın"
+    user:
+      messages:
+        assigned: "Atandı"

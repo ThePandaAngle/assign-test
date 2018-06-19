@@ -1,0 +1,38 @@
+# encoding: utf-8
+#
+# Never edit this file. It will be overwritten when translations are pulled from Transifex.
+#
+# To work with us on translations, join this project:
+# https://www.transifex.com/projects/p/discourse-org/
+
+es:
+  js:
+    action_codes:
+      assigned: "asignado por %{who} %{when}"
+      unassigned: "desasignado por %{who} %{when}"
+    discourse_assign:
+      cant_act: "No puedes accionar sobre reportes que han sido asignados a otros usuarios"
+      cant_act_unclaimed: "Debe reclamar este tema antes de actuar sobre reportes."
+      assigned: "Asignado"
+      assigned_to: "Asignado a"
+      assign_notification: "<i title='assigned' class='fa fa-user-plus'></i><p><span>{{username}}</span> {{description}}</p>"
+      unassign_all:
+        title: "Des-asignar Todos"
+        confirm: "¿Estás seguro que quieres quitar la asignación a todos los temas de {{username}}?"
+      unassign:
+        title: "Sin asignar"
+        help: "Tema sin asignar"
+      assign:
+        title: "Asignar"
+        help: "Asignar tema a usuario"
+      assign_modal:
+        title: "Asignar Tema"
+        description: "Ingresa el nombre de usuario de la persona que quisieras asignarle este tema"
+        assign: "Asignar"
+      claim:
+        title: "reclamar"
+        help: "Asignar tema a mí mismo"
+    user:
+      messages:
+        assigned_title: "Asignados (%{count})"
+        assigned: "Asignado"

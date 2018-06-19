@@ -1,0 +1,69 @@
+.user-right {
+  .assign-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.5em;
+
+    .assign-messages-assigned {
+      margin-right: 0.5em;
+    }
+  }
+}
+
+.assigned-to {
+  .d-icon, i.fa {
+    margin-right: 0.5em;
+    color: $primary-medium;
+  }
+  .assign-text {
+    margin-right: 0.25em;
+  }
+}
+
+.cant-act-flagged-post {
+  padding: 0.5em;
+  border: 1px dashed $primary-medium;
+  color: $primary;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assigned-to-user {
+  display: flex;
+  align-items: center;
+
+  img.avatar {
+    margin-right: 0.3em;
+  }
+
+  .unassign {
+    margin-left: 0.5em;
+  }
+}
+
+.topic-assigned-to {
+  min-width: 15%;
+  width: 15%;
+}
+
+.list-tags.assigned {
+  margin-left: 5px;
+}
+
+.assign.modal-body .ember-text-field {
+  width: 300px;
+}
+.assign.modal-body .ac-wrap {
+  margin-top: 5px;
+}
+
+.assign-suggestions {
+  height: 25px;
+  margin-top: 15px;
+  img {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+}

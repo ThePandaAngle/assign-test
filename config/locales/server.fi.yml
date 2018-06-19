@@ -1,0 +1,19 @@
+# encoding: utf-8
+#
+# Never edit this file. It will be overwritten when translations are pulled from Transifex.
+#
+# To work with us on translations, join this project:
+# https://www.transifex.com/projects/p/discourse-org/
+
+fi:
+  site_settings:
+    assign_enabled: "Ota osoituslisäosa käyttöön"
+    assigns_public: "Salli tavallisen kansan nähdä ketjujen osoitukset"
+    assigns_user_url_path: "Polku, joka näyttää kaikki käyttäjälle osoitetut (käytä: {username} käyttäjänimen paikalla)"
+    assigns_by_staff_mention: "Jos henkilökunnan jäsen mainitsee toisen henkilökuntalaisen, ketju osoitetaan automaattisesti"
+    unassign_creates_tracking_post: "Jos perut ketjun osoituksen, kuiskaus tai pieni merkintä luodaan pitämään kirjaa muutoksesta"
+    assign_self_regex: "Säännöllinen lauseke, jolla osoitetaan itselle. Esimerkiksi 'minun listalle'"
+    assign_other_regex: "Säännöllinen lauseke, jolla osoitetaan toiselle maininnan avulla. Esimerkiksi 'sinun listalle'."
+  discourse_assign:
+    assigned_to: "Ketju osoitettu käyttäjälle @%{username}"
+    unassigned: "Ketjun osoitus peruttiin"

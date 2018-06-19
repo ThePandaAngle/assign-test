@@ -1,0 +1,21 @@
+plugins:
+  assign_enabled:
+    default: false
+    client: true
+  assigns_by_staff_mention: false
+  unassign_creates_tracking_post: true
+  assigns_public: false
+  assign_self_regex: ""
+  assign_other_regex: ""
+  unassign_on_close: false
+  unassign_on_group_archive: false
+  assigns_user_url_path:
+    client: true
+    default: "/latest?assigned={username}"
+  assign_locks_flags:
+    default: true
+    client: true
+  flags_require_assign:
+    default: false
+    client: true
+  assign_mailer_enabled: false
