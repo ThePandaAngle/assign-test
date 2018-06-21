@@ -6,7 +6,7 @@ export default Ember.Controller.extend({
 
   @computed('model.topics')
   canUnassignAll(topics) {
-    return topics && topics.length && this.currentUser.get('staff');
+    return topics && topics.length;
   },
 
   actions: {
