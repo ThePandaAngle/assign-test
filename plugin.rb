@@ -1,8 +1,8 @@
 # name: discourse-assign-all
 # about: Assign users to topics
 # version: 0.1
-# authors: Sam Saffron ;Modified from for Testing No Staff Restrictions
-# url: https://github.com/discourse/discourse-assign
+# authors: Sam Saffron; Modified from original for Testing No Staff Restrictions
+# url: https://github.com/
 
 enabled_site_setting :assign_enabled
 
